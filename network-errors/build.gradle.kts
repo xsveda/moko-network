@@ -26,11 +26,6 @@ dependencies {
     commonMainImplementation(project(":network"))
 
     androidMainImplementation(Deps.Libs.Android.appCompat)
-
-    // temporary fix of https://youtrack.jetbrains.com/issue/KT-41083
-    commonMainImplementation("dev.icerock.moko:mvvm:0.8.0")
-    commonMainImplementation("dev.icerock.moko:parcelize:0.4.0")
-    commonMainImplementation("dev.icerock.moko:graphics:0.4.0")
 }
 
 multiplatformResources {
