@@ -14,7 +14,7 @@ pluginManagement {
     }
 }
 
-includeBuild("plugins")
+includeBuild("network-gradle-plugin")
 include(":network")
 include(":network-errors")
 
